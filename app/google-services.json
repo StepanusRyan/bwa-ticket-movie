@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48916396872",
+    "project_id": "bwa-movie-20f65",
+    "storage_bucket": "bwa-movie-20f65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48916396872:android:8e3a4a8deb3a798a55d17d",
+        "android_client_info": {
+          "package_name": "com.stepanusryan.bwamovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48916396872-k3kj51rjmmhnvlmqaie94dels9cmn1d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Hyi1I0rqEpfVyyaEVQr_4euVbGAiVIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48916396872-k3kj51rjmmhnvlmqaie94dels9cmn1d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

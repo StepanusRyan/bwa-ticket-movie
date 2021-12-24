@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".main.ui.ticket.TicketActivity">
+
+    <com.vipulasri.ticketview.TicketView
+        android:id="@+id/ticket_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ticketCornerRadius="20dp"
+        app:ticketCornerType="rounded"
+        app:ticketDividerType="dash"
+        app:ticketElevation="8dp"
+        app:ticketOrientation="horizontal"
+        app:ticketScallopPositionPercent="80"
+        app:ticketScallopRadius="20dp"
+        app:ticketShowBorder="false"
+        app:ticketShowDivider="true" />
+
+    <ImageView
+        android:id="@+id/imagePoster"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:src="@color/color_red"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toTopOf="@+id/ticket_view" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Judul"
+        android:textSize="16sp"
+        android:textColor="@color/background"
+        app:layout_constraintStart_toEndOf="@+id/imagePoster"
+        app:layout_constraintTop_toTopOf="@+id/imagePoster" />
+
+    <TextView
+        android:id="@+id/txtGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Genre"
+        android:textColor="@color/background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imagePoster"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_baseline_star_24"
+        android:drawablePadding="4dp"
+        android:text="Rating"
+        android:textColor="@color/background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imagePoster"
+        app:layout_constraintTop_toBottomOf="@+id/txtGenre" />
+
+    <TextView
+        android:id="@+id/txtwhen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="4dp"
+        android:text="When"
+        android:textColor="@color/background"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/imagePoster" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_calendar_today_24px"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/txtwhen" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/date_time"
+        android:textColor="@color/background"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/txtwhen" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="16 November 2021 | 10.00"
+        android:textStyle="bold"
+        android:textColor="@color/background"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/txtwhen" />
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_local_movies_24px"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:text="Cinema"
+        android:textColor="@color/background"
+        app:layout_constraintStart_toEndOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:text="Galaxy Mall 1"
+        android:textColor="@color/background"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView20198"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Items"
+        android:textColor="@color/background"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_ticket"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view"
+        app:layout_constraintTop_toBottomOf="@+id/textView20198"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_code"
+        app:layout_constraintBottom_toBottomOf="@+id/ticket_view"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_view"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/ticket_view" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:foregroundGravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Quick Print"
+        android:textSize="16sp"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Scan QR"
+        android:textSize="16sp"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4" />
+
+    <ImageView
+        android:id="@+id/iv_barcode"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_barcode"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

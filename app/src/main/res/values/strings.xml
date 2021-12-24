@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tiket Movie</string>
+    <string name="skip1">Lewati Perkenalan</string>
+    <string name="next">Lanjutkan</string>
+    <string name="onboarding1">onboarding1</string>
+    <string name="onboarding2">onboarding1</string>
+    <string name="onboarding3">onboarding1</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="now_playing_desc">Lebih mudah untuk mengetahui film yang sedang tampil</string>
+    <string name="pre_sale">Pre-Sale</string>
+    <string name="pre_sale_desc">Tidak khawatir ketinggalan update film terbaru</string>
+    <string name="cashless">Cashless</string>
+    <string name="cashless_desc">Gunakan e-wallet untuk transaksi tiket nonton</string>
+    <string name="start">Memulai</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar Akun Baru</string>
+    <string name="logo">logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="photo">Photo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_ticket">Ticket</string>
+    <string name="title_profile">Profile</string>
+    <string name="date_time"><![CDATA[Date & time]]></string>
+    <string name="balance_detail">Saldo e-wallet kamu tidak dapat mencukupi untuk melakukan transaksi</string>
+    <string name="checkout_success_desc">Tiket telah berhasil dibeli dan selamat menikmati film</string>
+</resources>

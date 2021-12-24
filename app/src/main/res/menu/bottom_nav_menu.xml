@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/title_home"
+        app:exb_color="@color/color_blue_gray"/>
+
+    <item
+        android:id="@+id/navigation_ticket"
+        android:icon="@drawable/ic_tickets__1_"
+        android:title="@string/title_ticket"
+        app:exb_color="@color/color_blue_gray"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_profile"
+        app:exb_color="@color/color_blue_gray"/>
+
+</menu>
